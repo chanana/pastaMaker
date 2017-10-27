@@ -1,4 +1,4 @@
 # .gitignore for pastaMaker
 *.ape
 *.str
-DS_Store
+.DS_Store
