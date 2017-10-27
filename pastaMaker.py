@@ -6,7 +6,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 filelist = [f for f in os.listdir(dir_path)
             if os.path.isfile(os.path.join(dir_path, f))]
 
-filelist.remove('PastaMaker.py')
+filelist.remove('pastaMaker.py')
 
 try:
     filelist.remove('.DS_Store')
